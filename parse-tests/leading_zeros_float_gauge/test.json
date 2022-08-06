@@ -1,0 +1,34 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Gauge"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a",
+        "labels": null,
+        "number": 0.12,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Gauge"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a",
+        "labels": [
+          {
+            "name": "a",
+            "value": "1"
+          },
+          {
+            "name": "foo",
+            "value": "bar"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 0.0,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a",
+        "labels": [
+          {
+            "name": "a",
+            "value": "1"
+          },
+          {
+            "name": "foo",
+            "value": "bar"
+          }
+        ],
+        "number": 2.0,
+        "timestamp": 1e-10,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a",
+        "labels": [
+          {
+            "name": "a",
+            "value": "1"
+          },
+          {
+            "name": "foo",
+            "value": "bar"
+          }
+        ],
+        "number": 3.0,
+        "timestamp": 1e-9,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a",
+        "labels": [
+          {
+            "name": "a",
+            "value": "2"
+          },
+          {
+            "name": "foo",
+            "value": "bar"
+          }
+        ],
+        "number": 4.0,
+        "timestamp": 0.0,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a",
+        "labels": [
+          {
+            "name": "a",
+            "value": "2"
+          },
+          {
+            "name": "foo",
+            "value": "bar"
+          }
+        ],
+        "number": 5.0,
+        "timestamp": 1e-10,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

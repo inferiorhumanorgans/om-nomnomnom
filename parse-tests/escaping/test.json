@@ -1,0 +1,81 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "he\\n\\\\l\\tp"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "b\\\"a\\nr"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "b\\\\a\\z"
+          }
+        ],
+        "number": 2.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "b\\\"a\\nr # "
+          }
+        ],
+        "number": 3.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "b\\\\a\\z # "
+          }
+        ],
+        "number": 4.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

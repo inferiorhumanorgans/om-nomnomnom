@@ -1,0 +1,349 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a0",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a0",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a0_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "foo"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a1",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a1",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a1_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\foo"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a2",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a2",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a2_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\\\foo"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a3",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a3",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a3_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "foo\\\\"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a4",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a4",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a4_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\\\"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a5",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a5",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a5_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\n"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a6",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a6",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a6_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\\\n"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a7",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a7",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a7_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\\\\\n"
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a8",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a8",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a8_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\\""
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a9",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a9",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a9_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "\\\\\\\""
+          },
+          {
+            "name": "bar",
+            "value": "baz"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

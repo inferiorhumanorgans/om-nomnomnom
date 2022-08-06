@@ -1,0 +1,94 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "GaugeHistogram"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "1.0"
+          }
+        ],
+        "number": 0.0,
+        "timestamp": 123.0,
+        "exemplar": {
+          "labels": [
+            {
+              "name": "a",
+              "value": "b"
+            }
+          ],
+          "number": 0.5,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "2.0"
+          }
+        ],
+        "number": 2.0,
+        "timestamp": 123.0,
+        "exemplar": {
+          "labels": [
+            {
+              "name": "a",
+              "value": "c"
+            }
+          ],
+          "number": 0.5,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "+Inf"
+          }
+        ],
+        "number": 3.0,
+        "timestamp": 123.0,
+        "exemplar": {
+          "labels": [
+            {
+              "name": "a",
+              "value": "d"
+            }
+          ],
+          "number": 4.0,
+          "timestamp": 123.0
+        }
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

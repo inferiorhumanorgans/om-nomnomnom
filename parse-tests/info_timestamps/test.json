@@ -1,0 +1,61 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Info"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_info",
+        "labels": [
+          {
+            "name": "a",
+            "value": "1"
+          },
+          {
+            "name": "foo",
+            "value": "bar"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 1.0,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_info",
+        "labels": [
+          {
+            "name": "a",
+            "value": "2"
+          },
+          {
+            "name": "foo",
+            "value": "bar"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 0.0,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

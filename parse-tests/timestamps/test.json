@@ -1,0 +1,197 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "1"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 0.0,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "2"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 0.0,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "3"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 1.1,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "4"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 1.2345678901234567e19,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_total",
+        "labels": [
+          {
+            "name": "foo",
+            "value": "5"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": 1500.0,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "b",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "b",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "b_total",
+        "labels": null,
+        "number": 2.0,
+        "timestamp": 1234567890.0,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ],
+  "parsed": {
+    "a": {
+      "metric_type": "Counter",
+      "help": "help",
+      "unit": null,
+      "samples": [
+        {
+          "name": "a_total",
+          "labels": [
+            {
+              "name": "foo",
+              "value": "1"
+            }
+          ],
+          "number": 1.0,
+          "timestamp": 0.0
+        },
+        {
+          "name": "a_total",
+          "labels": [
+            {
+              "name": "foo",
+              "value": "2"
+            }
+          ],
+          "number": 1.0,
+          "timestamp": 0.0
+        },
+        {
+          "name": "a_total",
+          "labels": [
+            {
+              "name": "foo",
+              "value": "3"
+            }
+          ],
+          "number": 1.0,
+          "timestamp": 1.1
+        },
+        {
+          "name": "a_total",
+          "labels": [
+            {
+              "name": "foo",
+              "value": "4"
+            }
+          ],
+          "number": 1.0,
+          "timestamp": 1.2345678901234567e19
+        },
+        {
+          "name": "a_total",
+          "labels": [
+            {
+              "name": "foo",
+              "value": "5"
+            }
+          ],
+          "number": 1.0,
+          "timestamp": 1500.0
+        }
+      ]
+    },
+    "b": {
+      "metric_type": "Counter",
+      "help": "help",
+      "unit": null,
+      "samples": [
+        {
+          "name": "b_total",
+          "labels": [],
+          "number": 2.0,
+          "timestamp": 1234567890.0
+        }
+      ]
+    }
+  }
+}

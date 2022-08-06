@@ -1,0 +1,1190 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "go_gc_duration_seconds",
+          "help_text": "A summary of the GC invocation durations."
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "go_gc_duration_seconds",
+          "metric_type": "Summary"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_gc_duration_seconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "0.0"
+          }
+        ],
+        "number": 0.013300656000000001,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_gc_duration_seconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "0.25"
+          }
+        ],
+        "number": 0.013638736,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_gc_duration_seconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "0.5"
+          }
+        ],
+        "number": 0.013759906,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_gc_duration_seconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "0.75"
+          }
+        ],
+        "number": 0.013962066,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_gc_duration_seconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "1.0"
+          }
+        ],
+        "number": 0.021383540000000003,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_gc_duration_seconds_sum",
+        "labels": null,
+        "number": 56.12904785,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_gc_duration_seconds_count",
+        "labels": null,
+        "number": 7476.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "go_goroutines",
+          "help_text": "Number of goroutines that currently exist."
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "go_goroutines",
+          "metric_type": "Gauge"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "go_goroutines",
+        "labels": null,
+        "number": 166.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+          "help_text": "Quantiles for batch indexing duration in milliseconds."
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+          "metric_type": "Summary"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "0.5"
+          }
+        ],
+        "number": "NaN",
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "0.9"
+          }
+        ],
+        "number": "NaN",
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+        "labels": [
+          {
+            "name": "quantile",
+            "value": "0.99"
+          }
+        ],
+        "number": "NaN",
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_indexing_batch_duration_milliseconds_sum",
+        "labels": null,
+        "number": 871.5665949999999,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_indexing_batch_duration_milliseconds_count",
+        "labels": null,
+        "number": 229.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "process_cpu_seconds",
+          "help_text": "Total user and system CPU time spent in seconds."
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "process_cpu_seconds",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "process_cpu_seconds_total",
+        "labels": null,
+        "number": 29323.4,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "process_virtual_memory_bytes",
+          "help_text": "Virtual memory size in bytes."
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "process_virtual_memory_bytes",
+          "metric_type": "Gauge"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "process_virtual_memory_bytes",
+        "labels": null,
+        "number": 2478268416.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "prometheus_build_info",
+          "help_text": "A metric with a constant '1' value labeled by version, revision, and branch from which Prometheus was built."
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "prometheus_build_info",
+          "metric_type": "Gauge"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_build_info",
+        "labels": [
+          {
+            "name": "branch",
+            "value": "HEAD"
+          },
+          {
+            "name": "revision",
+            "value": "ef176e5"
+          },
+          {
+            "name": "version",
+            "value": "0.16.0rc1"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "prometheus_local_storage_chunk_ops",
+          "help_text": "The total number of chunk operations by their type."
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "prometheus_local_storage_chunk_ops",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "clone"
+          }
+        ],
+        "number": 28.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "create"
+          }
+        ],
+        "number": 997844.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "drop"
+          }
+        ],
+        "number": 1345758.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "load"
+          }
+        ],
+        "number": 1641.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "persist"
+          }
+        ],
+        "number": 981408.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "pin"
+          }
+        ],
+        "number": 32662.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "transcode"
+          }
+        ],
+        "number": 980180.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "prometheus_local_storage_chunk_ops_total",
+        "labels": [
+          {
+            "name": "type",
+            "value": "unpin"
+          }
+        ],
+        "number": 32662.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "foo",
+          "help_text": "histogram Testing histogram buckets"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "foo",
+          "metric_type": "Histogram"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "0.0"
+          }
+        ],
+        "number": 0.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "1e-05"
+          }
+        ],
+        "number": 0.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "0.0001"
+          }
+        ],
+        "number": 0.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "0.1"
+          }
+        ],
+        "number": 8.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "1.0"
+          }
+        ],
+        "number": 10.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "10.0"
+          }
+        ],
+        "number": 17.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "100000.0"
+          }
+        ],
+        "number": 17.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "1e+06"
+          }
+        ],
+        "number": 17.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "1.55555555555552e+06"
+          }
+        ],
+        "number": 17.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "1e+23"
+          }
+        ],
+        "number": 17.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "+Inf"
+          }
+        ],
+        "number": 17.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_count",
+        "labels": null,
+        "number": 17.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_sum",
+        "labels": null,
+        "number": 324789.3,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "foo_created",
+        "labels": null,
+        "number": 1520430000.123,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "bar",
+          "help_text": "histogram Testing with labels"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "bar",
+          "metric_type": "Histogram"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "bar_bucket",
+        "labels": [
+          {
+            "name": "a",
+            "value": "b"
+          },
+          {
+            "name": "le",
+            "value": "+Inf"
+          }
+        ],
+        "number": 0.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "bar_bucket",
+        "labels": [
+          {
+            "name": "a",
+            "value": "c"
+          },
+          {
+            "name": "le",
+            "value": "+Inf"
+          }
+        ],
+        "number": 0.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ],
+  "parsed": {
+    "go_gc_duration_seconds": {
+      "metric_type": "Summary",
+      "help": "A summary of the GC invocation durations.",
+      "unit": null,
+      "samples": [
+        {
+          "name": "go_gc_duration_seconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "0.0"
+            }
+          ],
+          "number": 0.013300656000000001,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "go_gc_duration_seconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "0.25"
+            }
+          ],
+          "number": 0.013638736,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "go_gc_duration_seconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "0.5"
+            }
+          ],
+          "number": 0.013759906,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "go_gc_duration_seconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "0.75"
+            }
+          ],
+          "number": 0.013962066,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "go_gc_duration_seconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "1.0"
+            }
+          ],
+          "number": 0.021383540000000003,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "go_gc_duration_seconds_sum",
+          "labels": [],
+          "number": 56.12904785,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "go_gc_duration_seconds_count",
+          "labels": [],
+          "number": 7476.0,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "bar": {
+      "metric_type": "Histogram",
+      "help": "histogram Testing with labels",
+      "unit": null,
+      "samples": [
+        {
+          "name": "bar_bucket",
+          "labels": [
+            {
+              "name": "a",
+              "value": "b"
+            },
+            {
+              "name": "le",
+              "value": "+Inf"
+            }
+          ],
+          "number": 0.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "bar_bucket",
+          "labels": [
+            {
+              "name": "a",
+              "value": "c"
+            },
+            {
+              "name": "le",
+              "value": "+Inf"
+            }
+          ],
+          "number": 0.0,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "prometheus_build_info": {
+      "metric_type": "Gauge",
+      "help": "A metric with a constant '1' value labeled by version, revision, and branch from which Prometheus was built.",
+      "unit": null,
+      "samples": [
+        {
+          "name": "prometheus_build_info",
+          "labels": [
+            {
+              "name": "branch",
+              "value": "HEAD"
+            },
+            {
+              "name": "revision",
+              "value": "ef176e5"
+            },
+            {
+              "name": "version",
+              "value": "0.16.0rc1"
+            }
+          ],
+          "number": 1.0,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "foo": {
+      "metric_type": "Histogram",
+      "help": "histogram Testing histogram buckets",
+      "unit": null,
+      "samples": [
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "0.0"
+            }
+          ],
+          "number": 0.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "1e-05"
+            }
+          ],
+          "number": 0.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "0.0001"
+            }
+          ],
+          "number": 0.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "0.1"
+            }
+          ],
+          "number": 8.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "1.0"
+            }
+          ],
+          "number": 10.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "10.0"
+            }
+          ],
+          "number": 17.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "100000.0"
+            }
+          ],
+          "number": 17.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "1e+06"
+            }
+          ],
+          "number": 17.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "1.55555555555552e+06"
+            }
+          ],
+          "number": 17.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "1e+23"
+            }
+          ],
+          "number": 17.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_bucket",
+          "labels": [
+            {
+              "name": "le",
+              "value": "+Inf"
+            }
+          ],
+          "number": 17.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_count",
+          "labels": [],
+          "number": 17.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_sum",
+          "labels": [],
+          "number": 324789.3,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "foo_created",
+          "labels": [],
+          "number": 1520430000.123,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "process_cpu_seconds": {
+      "metric_type": "Counter",
+      "help": "Total user and system CPU time spent in seconds.",
+      "unit": null,
+      "samples": [
+        {
+          "name": "process_cpu_seconds_total",
+          "labels": [],
+          "number": 29323.4,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "prometheus_local_storage_indexing_batch_duration_milliseconds": {
+      "metric_type": "Summary",
+      "help": "Quantiles for batch indexing duration in milliseconds.",
+      "unit": null,
+      "samples": [
+        {
+          "name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "0.5"
+            }
+          ],
+          "number": null,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "0.9"
+            }
+          ],
+          "number": null,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_indexing_batch_duration_milliseconds",
+          "labels": [
+            {
+              "name": "quantile",
+              "value": "0.99"
+            }
+          ],
+          "number": null,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_indexing_batch_duration_milliseconds_sum",
+          "labels": [],
+          "number": 871.5665949999999,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_indexing_batch_duration_milliseconds_count",
+          "labels": [],
+          "number": 229.0,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "process_virtual_memory_bytes": {
+      "metric_type": "Gauge",
+      "help": "Virtual memory size in bytes.",
+      "unit": null,
+      "samples": [
+        {
+          "name": "process_virtual_memory_bytes",
+          "labels": [],
+          "number": 2478268416.0,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "prometheus_local_storage_chunk_ops": {
+      "metric_type": "Counter",
+      "help": "The total number of chunk operations by their type.",
+      "unit": null,
+      "samples": [
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "clone"
+            }
+          ],
+          "number": 28.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "create"
+            }
+          ],
+          "number": 997844.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "drop"
+            }
+          ],
+          "number": 1345758.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "load"
+            }
+          ],
+          "number": 1641.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "persist"
+            }
+          ],
+          "number": 981408.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "pin"
+            }
+          ],
+          "number": 32662.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "transcode"
+            }
+          ],
+          "number": 980180.0,
+          "timestamp": null,
+          "exemplar": null
+        },
+        {
+          "name": "prometheus_local_storage_chunk_ops_total",
+          "labels": [
+            {
+              "name": "type",
+              "value": "unpin"
+            }
+          ],
+          "number": 32662.0,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    },
+    "go_goroutines": {
+      "metric_type": "Gauge",
+      "help": "Number of goroutines that currently exist.",
+      "unit": null,
+      "samples": [
+        {
+          "name": "go_goroutines",
+          "labels": [],
+          "number": 166.0,
+          "timestamp": null,
+          "exemplar": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Metric": {
+        "name": "a",
+        "labels": null,
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

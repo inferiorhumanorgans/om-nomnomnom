@@ -1,0 +1,100 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "redis_connected_clients",
+          "help_text": "Redis connected clients"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "redis_connected_clients",
+          "metric_type": "Unknown"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "redis_connected_clients",
+        "labels": [
+          {
+            "name": "instance",
+            "value": "rough-snowflake-web"
+          },
+          {
+            "name": "port",
+            "value": "6380"
+          }
+        ],
+        "number": 10.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "redis_connected_clients",
+        "labels": [
+          {
+            "name": "instance",
+            "value": "rough-snowflake-web"
+          },
+          {
+            "name": "port",
+            "value": "6381"
+          }
+        ],
+        "number": 12.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ],
+  "parsed": {
+    "redis_connected_clients": {
+      "metric_type": "Unknown",
+      "help": "Redis connected clients",
+      "unit": null,
+      "samples": [
+        {
+          "name": "redis_connected_clients",
+          "labels": [
+            {
+              "name": "instance",
+              "value": "rough-snowflake-web"
+            },
+            {
+              "name": "port",
+              "value": "6380"
+            }
+          ],
+          "number": 10.0,
+          "timestamp": null
+        },
+        {
+          "name": "redis_connected_clients",
+          "labels": [
+            {
+              "name": "instance",
+              "value": "rough-snowflake-web"
+            },
+            {
+              "name": "port",
+              "value": "6381"
+            }
+          ],
+          "number": 12.0,
+          "timestamp": null
+        }
+      ]
+    }
+  }
+}

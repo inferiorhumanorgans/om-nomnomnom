@@ -1,0 +1,43 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Summary"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_count",
+        "labels": null,
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_sum",
+        "labels": null,
+        "number": 2.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

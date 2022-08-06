@@ -1,0 +1,51 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "cc_seconds",
+          "help_text": "A counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "cc_seconds",
+          "metric_type": "Counter"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Unit": {
+          "metric_name": "cc_seconds",
+          "unit": "seconds"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "cc_seconds_total",
+        "labels": null,
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    {
+      "Metric": {
+        "name": "cc_seconds_created",
+        "labels": null,
+        "number": 123.456,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

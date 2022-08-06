@@ -1,0 +1,42 @@
+{
+  "comment": "exemplar label characters exactly 128 code points, which exceed 128 bytes",
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Histogram"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "+Inf"
+          }
+        ],
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": {
+          "labels": [
+            {
+              "name": "a",
+              "value": "☃345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"
+            }
+          ],
+          "number": 1.0,
+          "timestamp": 1.0
+        }
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}
+

@@ -1,0 +1,118 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a",
+          "metric_type": "Histogram"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "1.0"
+          },
+          {
+            "name": "foo",
+            "value": "bar # "
+          }
+        ],
+        "number": 0.0,
+        "timestamp": null,
+        "exemplar": {
+          "labels": [
+            {
+              "name": "a",
+              "value": "b"
+            },
+            {
+              "name": "foo",
+              "value": "bar # bar"
+            }
+          ],
+          "number": 0.5,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "2.0"
+          },
+          {
+            "name": "foo",
+            "value": "bar # "
+          }
+        ],
+        "number": 2.0,
+        "timestamp": null,
+        "exemplar": {
+          "labels": [
+            {
+              "name": "a",
+              "value": "c"
+            },
+            {
+              "name": "foo",
+              "value": "bar # bar"
+            }
+          ],
+          "number": 0.5,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_bucket",
+        "labels": [
+          {
+            "name": "le",
+            "value": "+Inf"
+          },
+          {
+            "name": "foo",
+            "value": "bar # "
+          }
+        ],
+        "number": 3.0,
+        "timestamp": null,
+        "exemplar": {
+          "labels": [
+            {
+              "name": "a",
+              "value": "d"
+            },
+            {
+              "name": "foo",
+              "value": "bar # bar"
+            }
+          ],
+          "number": 4.0,
+          "timestamp": null
+        }
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

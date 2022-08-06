@@ -1,0 +1,42 @@
+{
+  "type": "text",
+  "file": "metrics",
+  "shouldParse": true,
+  "tokens": [
+    {
+      "Descriptor": {
+        "Type": {
+          "metric_name": "a_seconds",
+          "metric_type": "Gauge"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Unit": {
+          "metric_name": "a_seconds",
+          "unit": "seconds"
+        }
+      }
+    },
+    {
+      "Descriptor": {
+        "Help": {
+          "metric_name": "a_seconds",
+          "help_text": "help"
+        }
+      }
+    },
+    {
+      "Metric": {
+        "name": "a_seconds",
+        "labels": null,
+        "number": 1.0,
+        "timestamp": null,
+        "exemplar": null
+      }
+    },
+    "Eof",
+    "Empty"
+  ]
+}

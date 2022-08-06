@@ -1,0 +1,16 @@
+[package]
+name = "om-bench"
+version = "0.1.0"
+edition = "2021"
+
+[[bench]]
+name = "openmetrics-parse"
+harness = false
+
+[dependencies]
+om-nomnomnom = { path = "../om-nomnomnom" }
+openmetrics-parser = "0.4"
+pyo3 = { version = "0.16.5", features = [ "auto-initialize" ] }
+
+[dev-dependencies]
+criterion = { version = "0.3", features = [ "html_reports" ] }
