@@ -2,6 +2,7 @@
 name = "om-nomnomnom"
 version = "0.1.5"
 edition = "2021"
+license = "Apache-2.0"
 
 [features]
 default = [ "no_interleave_metric", "enforce_timestamp_monotonic", "validate_histogram_count", "hash_fnv", "generic_parse_error" ]
