@@ -28,6 +28,20 @@ Usage is fairly simple:
     }
 ```
 
+To iterate over the samples and pull out all the values:
+
+```rust
+    let family = families
+        .values()
+        .first()
+        .expect("Empty exposition?");
+    let values = family
+        .samples
+        .iter()
+        .map(|sample| sample.number)
+        .collect::<Vec<f64>>();
+```
+
 ## Performance
 
 `om-nomnomnom` focuses on correctness more than performance.  Even so its performance is on par with other Rust implementations and well ahead of the reference parser written in Python.
@@ -38,3 +52,8 @@ The speed / correctness tradeoff can be further configured with the following fe
 * no_interleave_metric
 * enforce_timestamp_monotonic
 * hash_fnv
+
+## TODO
+
+* Serialization
+* Convenience structs for each family type
